@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.contenitore{
+  background-color: rgba(0,0,0,0.4);
+  margin: auto;
+  padding-top: 60px;
+  width: 1000px;
+  height: 600px;
+  text-align: center;
+  border-radius: 10px
+}
+img{
+  width: 20%
+}
+h1{
+  color:rgb(57,255,20)
+}
+.navigatore{
+  width: 700px;
+  height: 40px;
+  background-color: rgb(57,255,20);
+  margin: auto;
+  padding: 10px;
+}
+ul{
+  text-align: left;
+  color: white;
+
+}
+.indirizzo:before{
+  content: "\2907";
+}
+.carica{
+  height: 20px;
+  border-radius: 5px;
+}
+.carica.gino{
+  width: 250px;
+  background-color: orange;
+}
+.carica.mike{
+  width: 500px;
+  background-color: green;
+}
+.carica.fede{
+  width: 150px;
+  background-color: red;
+}
